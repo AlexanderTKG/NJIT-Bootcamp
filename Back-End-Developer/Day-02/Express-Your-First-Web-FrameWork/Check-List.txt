@@ -1,0 +1,15 @@
+1. Open your Terminal and cd to your Coding Folder
+2. Create a new Folder Name "first-express-app" by using the command "mkdir "and the name of the new folder here" "
+3. cd into the new folder you've created
+4. Create a file named "index.js" using the command "touch index.js"
+5. Install the .joson files by the command "npm init -y"
+6 Then run the command "npm install expresso' to install additional files #Shortcut "npm install i"
+7. Next open your index.js file
+8. Type in the index.js file and write "const express = require('express');"
+9. initialize the app variable 
+10. Create the home page route
+   1. Call app.get()
+   2. Set '/' as a path (first arg)
+   3. write callback function with req, res
+   4. call res.send('hello world')
+11. Call app.listen(3000) to keep the server open
